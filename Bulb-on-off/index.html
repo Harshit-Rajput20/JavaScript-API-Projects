@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <img
+      src="pngwing.com.png"
+      alt="lightoff"
+      width="100"
+      height="100"
+      id="imgOff"
+    />
+    <button id="btnOn">Button on</button>
+    <button id="buttonOff">Button Off</button>
+    <script>
+      const btnOn = document.getElementById("btnOn");
+      const imgOff = document.getElementById("imgOff");
+      const buttonOff = document.getElementById("buttonOff");
+
+      const btnOff = () => {
+        imgOff.src = "pngwing.com.png";
+      };
+
+      const buttonOn = function () {
+        imgOff.src = "pngwing.com (1).png";
+      };
+      btnOn.addEventListener("click", buttonOn);
+      buttonOff.addEventListener("click", btnOff);
+    </script>
+  </body>
+</html>

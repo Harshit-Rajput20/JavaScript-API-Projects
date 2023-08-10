@@ -1,0 +1,53 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fab22e;
+}
+
+.wrapper {
+  width: 80vmin;
+  padding: 50px 40px;
+  background-color: black;
+  position: absolute;
+  top: 30%;
+  left: 32%;
+  border-radius: 5px;
+  box-shadow: 20px 20px 40px rgba(97, 63, 0, 0.4);
+}
+
+span {
+  display: block;
+  text-align: center;
+  font-size: 100px;
+}
+
+p {
+  font-size: 16px;
+  color: white;
+  font-weight: 400;
+  text-align: center;
+  word-wrap: break-word;
+  line-height: 35px;
+  border: none;
+  opacity: 0;
+}
+.fade {
+  opacity: 1;
+  transition: opacity 1s;
+}
+
+button {
+  display: block;
+  background-color: #fab22e;
+  border: none;
+  padding: 5px;
+  font-size: 19px;
+  color: black;
+  font-weight: 600;
+  border-radius: 5px;
+  cursor: pointer;
+}
